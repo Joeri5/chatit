@@ -4,22 +4,28 @@ import axios from "axios";
 const LoginForm = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const authObject = { 'Project-ID': "94131741-a9c4-4ae4-87ae-1900731768f3", 'User-Name': username, 'User-Secret': password };
+        const authObject = { 'Project-ID': process.env.REACT_APP_PROJECT_ID, 'User-Name': username, 'User-Secret': password };
 
         try {
+            // username / password => chatengine => givemessages
             await axios.get('https://api.chatengine.io/chats', {headers: authObject});
+            // works => logged in
+
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+
+            window.location.reload();
+            setError('');
         } catch (error) {
-
+            // error => try with new username...
+            setError('Oops, incorrect credentials.');
         }
-
-        // username / password => chatengine => givemessages
-        // works => logged in
-        // error => try with new username...
-    }
+    };
 
     return (
       <div className="wrapper">
@@ -33,8 +39,11 @@ const LoginForm = () => {
                           <span>Start Chatting</span>
                       </button>
                   </div>
+                  <h2 className="error">{error}</h2>
               </form>
           </div>
       </div>
     );
 }
+
+export default LoginForm;
