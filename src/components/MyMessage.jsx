@@ -4,15 +4,16 @@ const MyMessage = ({ message }) => {
             <img
                 src={message.attachments[0].file}
                 alt="message-attachment"
-                className="float-right"
-                />
-        )
+                className="message-image"
+                style={{ float: 'right' }}
+            />
+        );
     }
     return(
-        <div className="float-right mr-5 text-white bg-purple-500">
+        <div className="message" style={{ float: 'right', marginRight: '18px', color: 'white', backgroundColor: '#3B2A50' }}>
             {message.text}
         </div>
-    )
-}
+    );
+};
 
 export default MyMessage;
