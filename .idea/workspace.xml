@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ChatFeed.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MessageForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyMessage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TheirMessage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatFeed.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheirMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TheirMessage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
@@ -82,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647018414101</updated>
       <workItem from="1647018417080" duration="5108000" />
+      <workItem from="1647087949667" duration="1292000" />
     </task>
     <servers />
   </component>

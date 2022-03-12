@@ -11,26 +11,24 @@ const ChatFeed = (props) => {
         const keys = Object.keys(messages);
 
         return keys.map((key, index) => {
-            const message = messages[keys];
+            const message = messages[key];
             const lastMessageKey = index === 0 ? null : keys[index - 1];
             const isMyMessage = userName === message.sender.username;
 
             return (
-                <div key={`msg_${index}`} className="w-full">
-                    <div>
-                        {
-                            isMyMessage
-                                ? <MyMessage />
-                                : <TheirMessage />
-                        }
+                <div key={`msg_${index}`} style={{ width: '100%' }}>
+                    <div className="message-block">
+                        {isMyMessage
+                            ? <MyMessage message={message} />
+                            : <TheirMessage message={message} lastMessage={messages[lastMessageKey]} />}
                     </div>
-                    <div style={{ marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px' }}>
-                        read-receipts
+                    <div className="read-receipts" style={{ marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px' }}>
+                        read-receipt
                     </div>
                 </div>
             );
-        })
-    }
+        });
+    };
 
     if(!chat) return 'Loading...';
 

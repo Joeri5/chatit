@@ -1,8 +1,20 @@
 const MessageForm = () => {
+    const handleSubmit = () => {
+
+    }
+
+    const handleChange = () => {
+
+    }
+
     return(
-        <div>
-            MessageForm
-        </div>
+        <form onSubmit={handleSubmit}>
+            <input
+                placeholder="Send a message..."
+                value={value}
+                onChange={handleChange}
+            />
+        </form>
     )
 }
 
