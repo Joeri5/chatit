@@ -1,21 +1,23 @@
-import {ChatEngine} from "react-chat-engine";
-import ChatFeed from "./components/ChatFeed";
-import LoginForm from "./components/LoginForm";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-const App = () => {
-	if(! localStorage.getItem('username')) return <LoginForm />
+import { AuthProvider } from "./contexts/AuthContext";
 
+import Chats from "./components/Chats";
+import Login from "./components/Login";
+
+function App() {
 	return (
-		<>
-			<ChatEngine
-				height="100vh"
-				projectID={process.env.REACT_APP_PROJECT_ID}
-				userName={localStorage.getItem('username')}
-				userSecret={localStorage.getItem('password')}
-				renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
-			/>
-		</>
+		<div style={{ fontFamily: 'Avenir' }}>
+			<Router>
+				 <AuthProvider>
+				<Switch>
+					 <Route path="/chats" component={Chats} />
+            <Route path="/" component={Login} />
+				</Switch>
+				 </AuthProvider>
+			</Router>
+		</div>
 	)
 }
 
-export default App;
+export default App

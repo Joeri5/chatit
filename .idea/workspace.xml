@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added styling and started working on loginform">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="finished the login and tested the project">
+      <change afterPath="$PROJECT_DIR$/src/components/Chats.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contexts/AuthContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatFeed.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChatFeed.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChatFeed.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyMessage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheirMessage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +93,9 @@
       <workItem from="1647089889705" duration="105000" />
       <workItem from="1647095880040" duration="3774000" />
       <workItem from="1647121701406" duration="2209000" />
+      <workItem from="1647123933833" duration="100000" />
+      <workItem from="1647183354292" duration="5926000" />
+      <workItem from="1647194580492" duration="3530000" />
     </task>
     <task id="LOCAL-00001" summary="created mymessage, theirmessage, messageform and chatfeed">
       <created>1647089512341</created>
@@ -99,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647099528876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished the login and tested the project">
+      <created>1647123963882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647123963882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created mymessage, theirmessage, messageform and chatfeed" />
     <MESSAGE value="added styling and started working on loginform" />
-    <option name="LAST_COMMIT_MESSAGE" value="added styling and started working on loginform" />
+    <MESSAGE value="finished the login and tested the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the login and tested the project" />
   </component>
 </project>
