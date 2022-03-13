@@ -4,6 +4,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 
 import Chats from "./components/Chats";
 import Login from "./components/Login";
+import HomeScreen from "./components/HomeScreen";
 
 function App() {
 	return (
@@ -12,7 +13,8 @@ function App() {
 				 <AuthProvider>
 				<Switch>
 					 <Route path="/chats" component={Chats} />
-            <Route path="/" component={Login} />
+					<Route path="/home" component={HomeScreen} />
+					<Route path="/login" component={Login} />
 				</Switch>
 				 </AuthProvider>
 			</Router>

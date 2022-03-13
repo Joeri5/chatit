@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="finished the login and tested the project">
-      <change afterPath="$PROJECT_DIR$/src/components/Chats.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/AuthContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible">
+      <change afterPath="$PROJECT_DIR$/src/components/HomeScreen.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChatFeed.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MessageForm.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MyMessage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TheirMessage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chats.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +58,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joeri\Documents\chatit\src\components" />
+      <recent name="C:\Users\joeri\Documents\chatit\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -95,7 +96,7 @@
       <workItem from="1647121701406" duration="2209000" />
       <workItem from="1647123933833" duration="100000" />
       <workItem from="1647183354292" duration="5926000" />
-      <workItem from="1647194580492" duration="3530000" />
+      <workItem from="1647194580492" duration="8713000" />
     </task>
     <task id="LOCAL-00001" summary="created mymessage, theirmessage, messageform and chatfeed">
       <created>1647089512341</created>
@@ -118,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647123963882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible">
+      <created>1647198399036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647198399036</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
     <MESSAGE value="created mymessage, theirmessage, messageform and chatfeed" />
     <MESSAGE value="added styling and started working on loginform" />
     <MESSAGE value="finished the login and tested the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished the login and tested the project" />
+    <MESSAGE value="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible" />
+    <option name="LAST_COMMIT_MESSAGE" value="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible" />
   </component>
 </project>

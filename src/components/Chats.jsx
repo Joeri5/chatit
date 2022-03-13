@@ -14,7 +14,7 @@ const Chats = () => {
     const handleLogout = async () => {
         await auth.signOut();
 
-        history.push('/');
+        history.push('/home');
     }
 
     const getFile = async (url) => {
@@ -26,7 +26,7 @@ const Chats = () => {
 
     useEffect(() => {
         if(!user){
-            history.push('/');
+            history.push('/home');
 
             return;
         }
