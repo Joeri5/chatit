@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import {useHistory} from "react-router-dom";
-import {ChatEngine, getOrCreateChat, NewChatForm, NewMessageForm} from "react-chat-engine";
+import {ChatEngine} from "react-chat-engine";
 
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
 import Navbar from "./Navbar";
+import Spinner from "./Spinner";
 
 const Chats = () => {
     const history = useHistory();
@@ -56,44 +57,8 @@ const Chats = () => {
             })
     }, [user, history]);
 
-    const [username, setUsername] = useState('')
+    if(!user || loading) return <Spinner /> ;
 
-    function createDirectChat(creds) {
-        getOrCreateChat(
-            creds,
-            { is_direct_chat: true, chat: [username] },
-            () => setUsername('')
-        )
-    }
-
-    function createNewChat(creds) {
-        getOrCreateChat(
-            creds,
-            {is_direct_chat: false, usernames: [username]},
-            () => setUsername('')
-        )
-    }
-
-    function renderChatForm(creds) {
-        return (
-            <div>
-                <NewChatForm />
-                {/*<NewMessageForm chat={}/>*/}
-                <div>
-                    <input
-                            placeholder='Username'
-                            value={username}
-                            onChange={(e) => setUsername(e.target.value)}
-                        />
-                        <button onClick={() => createDirectChat(creds)}>
-                            Create
-                        </button>
-                </div>
-            </div>
-        )
-    }
-
-    if(!user || loading) return "Loading...";
 
     return(
         <div className="chats-page">
@@ -103,8 +68,6 @@ const Chats = () => {
                 projectID={process.env.REACT_APP_PROJECT_ID}
                 userName={user.email}
                 userSecret={user.uid}
-                renderNewChatForm={(creds) => renderChatForm(creds)}
-                // renderNewMessageForm={(creds) => renderChatForm(creds)}
             />
         </div>
 

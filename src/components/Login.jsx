@@ -1,7 +1,6 @@
-import { GoogleOutlined } from "@ant-design/icons";
 import firebase from "firebase/compat";
 import GoogleButton from 'react-google-button';
-import GithubButton from 'react-github-login-button'
+import GithubButton from 'react-github-login-button';
 
 import { auth } from "../firebase";
 import Navbar from "./Navbar";

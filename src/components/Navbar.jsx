@@ -1,7 +1,6 @@
 import {auth} from "../firebase";
 import {Link, useHistory} from "react-router-dom";
 import {useAuth} from "../contexts/AuthContext";
-import {useState} from "react";
 
 function Navbar (){
     const history = useHistory();

@@ -42,8 +42,8 @@
 }
 
 ::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
+    width: 0;
+    background: transparent;
 }
 
 /* Login Page */
@@ -64,7 +64,7 @@
     padding-bottom: 66px;
     width: 420px;
     text-align: center;
-    background-color: white;
+    background-color: #002766;
     border-radius: 22px;
 }
 
