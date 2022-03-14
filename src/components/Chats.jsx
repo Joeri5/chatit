@@ -5,17 +5,12 @@ import {auth} from "../firebase";
 
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
+import Navbar from "./Navbar";
 
 const Chats = () => {
     const history = useHistory();
     const { user } = useAuth();
     const [loading, setLoading] = useState(true);
-
-    const handleLogout = async () => {
-        await auth.signOut();
-
-        history.push('/home');
-    }
 
     const getFile = async (url) => {
         const response = await fetch(url);
@@ -66,14 +61,7 @@ const Chats = () => {
 
     return(
         <div className="chats-page">
-            <div className="nav-bar">
-                <div className="logo-tab">
-                    ChatIt
-                </div>
-                <div onClick={handleLogout} className="logout-tab">
-                    Logout
-                </div>
-            </div>
+            <Navbar />
             <ChatEngine
                 height="calc(100vh - 66px)"
                 projectID={process.env.REACT_APP_PROJECT_ID}
