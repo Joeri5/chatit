@@ -5,6 +5,7 @@ import { AuthProvider } from "./contexts/AuthContext";
 import Chats from "./components/Chats";
 import Login from "./components/Login";
 import HomeScreen from "./components/HomeScreen";
+import {Redirect} from "react-router";
 
 function App() {
 	return (
@@ -12,9 +13,12 @@ function App() {
 			<Router>
 				 <AuthProvider>
 				<Switch>
-					 <Route path="/chats" component={Chats} />
+					<Route exact path="/">
+						<Redirect to="/home" />
+					</Route>
 					<Route path="/home" component={HomeScreen} />
 					<Route path="/login" component={Login} />
+					<Route path="/chats" component={Chats} />
 				</Switch>
 				 </AuthProvider>
 			</Router>
