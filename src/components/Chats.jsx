@@ -1,7 +1,6 @@
-import { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {useHistory} from "react-router-dom";
-import {ChatEngine} from "react-chat-engine";
-import {auth} from "../firebase";
+import {ChatEngine, getOrCreateChat, NewChatForm, NewMessageForm} from "react-chat-engine";
 
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
@@ -57,6 +56,43 @@ const Chats = () => {
             })
     }, [user, history]);
 
+    const [username, setUsername] = useState('')
+
+    function createDirectChat(creds) {
+        getOrCreateChat(
+            creds,
+            { is_direct_chat: true, chat: [username] },
+            () => setUsername('')
+        )
+    }
+
+    function createNewChat(creds) {
+        getOrCreateChat(
+            creds,
+            {is_direct_chat: false, usernames: [username]},
+            () => setUsername('')
+        )
+    }
+
+    function renderChatForm(creds) {
+        return (
+            <div>
+                <NewChatForm />
+                {/*<NewMessageForm chat={}/>*/}
+                <div>
+                    <input
+                            placeholder='Username'
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                        />
+                        <button onClick={() => createDirectChat(creds)}>
+                            Create
+                        </button>
+                </div>
+            </div>
+        )
+    }
+
     if(!user || loading) return "Loading...";
 
     return(
@@ -67,6 +103,8 @@ const Chats = () => {
                 projectID={process.env.REACT_APP_PROJECT_ID}
                 userName={user.email}
                 userSecret={user.uid}
+                renderNewChatForm={(creds) => renderChatForm(creds)}
+                // renderNewMessageForm={(creds) => renderChatForm(creds)}
             />
         </div>
 

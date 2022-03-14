@@ -11,7 +11,7 @@ function App() {
 	return (
 		<div style={{ fontFamily: 'Avenir' }}>
 			<Router>
-				 <AuthProvider>
+				<AuthProvider>
 				<Switch>
 					<Route exact path="/">
 						<Redirect to="/home" />

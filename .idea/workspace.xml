@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added github sign in option">
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added automatic rediraction to path /home">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Chats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Chats.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,8 @@
       <updated>1647018414101</updated>
       <workItem from="1647018417080" duration="5108000" />
       <workItem from="1647245336429" duration="6000" />
-      <workItem from="1647245354559" duration="9162000" />
+      <workItem from="1647245354559" duration="14949000" />
+      <workItem from="1647277960129" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="worked on design and fixed navbar">
       <created>1647251969429</created>
@@ -91,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647255502975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added automatic rediraction to path /home">
+      <created>1647258313699</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647258313699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="worked on design and fixed navbar" />
     <MESSAGE value="added github sign in option" />
-    <option name="LAST_COMMIT_MESSAGE" value="added github sign in option" />
+    <MESSAGE value="added automatic rediraction to path /home" />
+    <option name="LAST_COMMIT_MESSAGE" value="added automatic rediraction to path /home" />
   </component>
 </project>
