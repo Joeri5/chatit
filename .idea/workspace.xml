@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="page height in the media query">
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added a spinner for loading">
+      <change afterPath="$PROJECT_DIR$/src/images/phone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" afterDir="false" />
     </list>
@@ -25,6 +27,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="2" />
   </component>
@@ -37,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,8 +57,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/contexts" />
+      <recent name="C:\Users\joeri\Documents\chatit\src\images" />
+      <recent name="C:\Users\joeri\Documents\chatit\src\components" />
+      <recent name="C:\Users\joeri\Documents\chatit\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -81,60 +88,50 @@
       <option name="presentableId" value="Default" />
       <updated>1647018414101</updated>
       <workItem from="1647018417080" duration="5108000" />
-      <workItem from="1647245336429" duration="6000" />
-      <workItem from="1647245354559" duration="14949000" />
-      <workItem from="1647277960129" duration="1486000" />
+      <workItem from="1647087949667" duration="1561000" />
+      <workItem from="1647089889705" duration="105000" />
+      <workItem from="1647095880040" duration="3774000" />
+      <workItem from="1647121701406" duration="2209000" />
+      <workItem from="1647123933833" duration="100000" />
+      <workItem from="1647183354292" duration="5926000" />
+      <workItem from="1647194580492" duration="8713000" />
     </task>
-    <task id="LOCAL-00001" summary="worked on design and fixed navbar">
-      <created>1647251969429</created>
+    <task id="LOCAL-00001" summary="created mymessage, theirmessage, messageform and chatfeed">
+      <created>1647089512341</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1647251969429</updated>
+      <updated>1647089512341</updated>
     </task>
-    <task id="LOCAL-00002" summary="added github sign in option">
-      <created>1647255502975</created>
+    <task id="LOCAL-00002" summary="added styling and started working on loginform">
+      <created>1647099528876</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1647255502975</updated>
+      <updated>1647099528876</updated>
     </task>
-    <task id="LOCAL-00003" summary="added automatic rediraction to path /home">
-      <created>1647258313699</created>
+    <task id="LOCAL-00003" summary="finished the login and tested the project">
+      <created>1647123963882</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1647258313699</updated>
+      <updated>1647123963882</updated>
     </task>
-    <task id="LOCAL-00004" summary="made progress with the login page">
-      <created>1647344875796</created>
+    <task id="LOCAL-00004" summary="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible">
+      <created>1647198399036</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1647344875796</updated>
+      <updated>1647198399036</updated>
     </task>
-    <task id="LOCAL-00005" summary="fixed the page height">
-      <created>1647350461986</created>
+    <task id="LOCAL-00005" summary="added a spinner for loading">
+      <created>1647291041738</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1647350461986</updated>
+      <updated>1647291041738</updated>
     </task>
-    <task id="LOCAL-00006" summary="page height">
-      <created>1647350689081</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1647350689081</updated>
-    </task>
-    <task id="LOCAL-00007" summary="page height in the media query">
-      <created>1647350750497</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1647350750497</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,16 +147,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="worked on design and fixed navbar" />
-    <MESSAGE value="added github sign in option" />
-    <MESSAGE value="added automatic rediraction to path /home" />
-    <MESSAGE value="made progress with the login page" />
-    <MESSAGE value="fixed the page height" />
-    <MESSAGE value="page height" />
-    <MESSAGE value="page height in the media query" />
-    <option name="LAST_COMMIT_MESSAGE" value="page height in the media query" />
+    <MESSAGE value="created mymessage, theirmessage, messageform and chatfeed" />
+    <MESSAGE value="added styling and started working on loginform" />
+    <MESSAGE value="finished the login and tested the project" />
+    <MESSAGE value="added firebase and made a new layout, deleted chatfeed, loginform, messageform, mymessage, theirmessage and made login with google possible" />
+    <MESSAGE value="added a spinner for loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a spinner for loading" />
   </component>
 </project>

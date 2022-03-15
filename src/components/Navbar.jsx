@@ -28,7 +28,7 @@ function Navbar (){
     );
 
     if (user) return (
-        <div className="nav-bar">
+        <div className="nav-bar shadow-md">
             <Link
                 to="/home"
                 className="logo-tab">
