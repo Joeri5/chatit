@@ -2,9 +2,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import { AuthProvider } from "./contexts/AuthContext";
 
-import Chats from "./components/Chats";
-import Login from "./components/Login";
-import HomeScreen from "./components/HomeScreen";
+import Chats from "./pages/Chats";
+import Login from "./pages/Login";
+import HomeScreen from "./pages/HomeScreen";
 import {Redirect} from "react-router";
 
 function App() {

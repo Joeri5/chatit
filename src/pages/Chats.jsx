@@ -4,8 +4,8 @@ import {ChatEngine} from "react-chat-engine";
 
 import { useAuth } from "../contexts/AuthContext";
 import axios from "axios";
-import Navbar from "./Navbar";
-import Spinner from "./Spinner";
+import Navbar from "../components/Navbar";
+import Spinner from "../components/Spinner";
 
 const Chats = () => {
     const history = useHistory();
