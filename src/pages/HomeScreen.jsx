@@ -2,7 +2,9 @@ import Navbar from "../components/Navbar";
 
 function HomeScreen() {
     return (
-          <Navbar />
+          <div className="homescreen">
+              <Navbar />
+          </div>
     )
 }
 

@@ -18,6 +18,10 @@
     height: 100vh;
 }
 
+.homescreen {
+    height: calc(100vh - 66px);
+}
+
 .nav-bar {
     width: 100%;
     height: 66px;
@@ -50,13 +54,13 @@
 
 .container-login-left {
     width: 50%;
-    height: 92.15vh;
+    height: calc(100vh - 66px);
     background: #002766;
 }
 
 .container-login-right {
     width: 50%;
-    height: 92.15vh;
+    height: calc(100vh - 66px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,8 +109,8 @@
 
     .container-login-right {
         width: 100vw;
-        height: 92.15vh;
         justify-content: center;
+        height: calc(100vh - 66px);
         align-items: center;
     }
 }
