@@ -9,7 +9,7 @@ function HomeScreen() {
                   <div className="container-home-left" style={{background: "white"}}>
                   </div>
                   <div className="container-home-right" style={{background: "white"}}>
-                      {/*<img src={Phone} alt="phone" className="image-home"/>*/}
+                      <img src={Phone} alt="phone" className="image-home"/>
                   </div>
               </div>
           </div>

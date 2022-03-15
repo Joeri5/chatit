@@ -48,7 +48,7 @@ html {
     height: 66px;
     background-color: #002766;
     z-index: 1;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .logo-tab {
