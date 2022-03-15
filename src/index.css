@@ -50,13 +50,13 @@
 
 .container-login-left {
     width: 50%;
-    height: 93vh;
+    height: 92.2vh;
     background: #002766;
 }
 
 .container-login-right {
     width: 50%;
-    height: 93vh;
+    height: 92.2vh;
     display: flex;
     justify-content: center;
     align-items: center;
