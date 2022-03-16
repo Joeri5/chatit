@@ -1,6 +1,6 @@
 import firebase from "firebase/compat";
-import GoogleButton from 'react-google-button';
-import GithubButton from 'react-github-login-button';
+import { TwitterLoginButton, GoogleLoginButton, GithubLoginButton } from "react-social-login-buttons";
+import Envelope from "../images/envelope.png";
 
 import { auth } from "../firebase";
 import Navbar from "../components/Navbar";
@@ -11,19 +11,23 @@ const Login = () => {
             <Navbar />
            <div style={{display: "flex"}}>
                <div className="container-login-left">
-
+                   <img src={Envelope} alt="envelope" className="image-login"/>
                </div>
                <div className="container-login-right">
                    <div id="login-card">
-                       <h2>Welcome to ChatIt</h2>
                        <div className="login-button">
-                           <GoogleButton
+                           <GoogleLoginButton
                                onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
                            />
                        </div>
                        <div className="login-button">
-                           <GithubButton
+                           <GithubLoginButton
                                onClick={() => auth.signInWithRedirect(new firebase.auth.GithubAuthProvider())}
+                           />
+                       </div>
+                       <div className="login-button">
+                           <TwitterLoginButton
+                               onClick={() => auth.signInWithRedirect(new firebase.auth.TwitterAuthProvider())}
                            />
                        </div>
                    </div>

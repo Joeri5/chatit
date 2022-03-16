@@ -26,7 +26,7 @@ html {
 
 .container-home-left {
     width: 50%;
-    height: calc(100vh - 66px);
+    height: calc(100vh - 75px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ html {
 
 .container-home-right {
     width: 50%;
-    height: calc(100vh - 66px);
+    height: calc(100vh - 75px);
     overflow: hidden;
 }
 
@@ -47,25 +47,25 @@ html {
 }
 
 .nav-bar {
-    width: 100%;
-    height: 66px;
+    width: 100vw;
+    height: 75px;
     background-color: #002766;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .logo-tab {
     position: absolute;
-    left: 22px;
-    top: 12px;
-    font-size: 32px;
+    font-size: 2.5rem;
     font-weight: 600;
     color: white;
 }
 
 .logout-tab {
-    position: absolute;
-    top: 22px;
-    right: 22px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
     color: white;
     width: 2rem;
 }
@@ -76,16 +76,27 @@ html {
 }
 
 /* Login Page */
+#login-page {
+    height: 100vh;
+    overflow: hidden;
+}
 
 .container-login-left {
-    width: 50%;
-    height: calc(100vh - 66px);
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+    height: 100vh;
     background: #002766;
 }
 
+.image-login {
+    width: 50vw;
+    overflow: hidden;
+}
+
 .container-login-right {
-    width: 50%;
-    height: calc(100vh - 66px);
+    width: 40%;
+    height: calc(100vh - 75px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +112,7 @@ html {
 
 #login-card {
     text-align: center;
+    font-size: 2rem;
 }
 
 .login-button {
@@ -135,7 +147,7 @@ html {
     .container-login-right {
         width: 100vw;
         justify-content: center;
-        height: calc(100vh - 66px);
+        height: calc(100vh - 75px);
         align-items: center;
     }
 

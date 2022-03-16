@@ -10,8 +10,8 @@ const override = css`
 `;
 
 function Spinner() {
-    let [loading, setLoading] = useState(true);
-    let [color, setColor] = useState("#002766");
+    let [loading] = useState(true);
+    let [color] = useState("#002766");
 
     return (
         <div className="sweet-loading">
