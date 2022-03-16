@@ -21,7 +21,8 @@ function Navbar (){
             </Link>
             <Link
                 to="/login"
-                className="logout-tab">
+                className="logout-tab"
+            >
                 Login
             </Link>
         </div>
@@ -32,7 +33,7 @@ function Navbar (){
             <Link
                 to="/home"
                 className="logo-tab">
-                Chat<span style={{color: "red"}}>It</span>
+                Chat<span style={{color: "#1890ff"}}>It</span>
             </Link>
             <div onClick={handleLogout} className="logout-tab">
                 Logout

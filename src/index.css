@@ -67,7 +67,7 @@ html {
     top: 22px;
     right: 22px;
     color: white;
-    cursor: pointer;
+    width: 2rem;
 }
 
 ::-webkit-scrollbar {
