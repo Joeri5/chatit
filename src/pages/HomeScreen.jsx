@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Phone from "../images/texting.webp";
+import Phone from "../images/texting.png";
 
 function HomeScreen() {
     return (
