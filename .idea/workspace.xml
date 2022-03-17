@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="did some styling and changed the button also added twitter sign in option">
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="turned it back failed deployment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/envelope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/texting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1647245354559" duration="14949000" />
       <workItem from="1647277960129" duration="1486000" />
       <workItem from="1647456905218" duration="5161000" />
-      <workItem from="1647507321402" duration="42000" />
+      <workItem from="1647507321402" duration="1236000" />
     </task>
     <task id="LOCAL-00001" summary="worked on design and fixed navbar">
       <created>1647251969429</created>
@@ -154,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647462032669</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed png to webp">
+      <created>1647507384229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647507384229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="turned it back failed deployment">
+      <created>1647508106869</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647508106869</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +191,8 @@
     <MESSAGE value="page height in the media query" />
     <MESSAGE value="added homepage image and slogan and made the css" />
     <MESSAGE value="did some styling and changed the button also added twitter sign in option" />
-    <option name="LAST_COMMIT_MESSAGE" value="did some styling and changed the button also added twitter sign in option" />
+    <MESSAGE value="changed png to webp" />
+    <MESSAGE value="turned it back failed deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="turned it back failed deployment" />
   </component>
 </project>
