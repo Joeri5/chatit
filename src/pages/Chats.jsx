@@ -8,6 +8,7 @@ import Navbar from "../components/Navbar";
 import Spinner from "../components/Spinner";
 
 const Chats = () => {
+
     const history = useHistory();
     const { user } = useAuth();
     const [loading, setLoading] = useState(true);

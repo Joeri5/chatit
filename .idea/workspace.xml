@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="turned it back failed deployment">
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="trying to fix deployment issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Chats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Chats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -84,7 +87,7 @@
       <workItem from="1647245354559" duration="14949000" />
       <workItem from="1647277960129" duration="1486000" />
       <workItem from="1647456905218" duration="5161000" />
-      <workItem from="1647507321402" duration="1236000" />
+      <workItem from="1647507321402" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="worked on design and fixed navbar">
       <created>1647251969429</created>
@@ -163,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647508106869</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="trying to fix deployment issues">
+      <created>1647508935843</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647508935843</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +192,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="worked on design and fixed navbar" />
     <MESSAGE value="added github sign in option" />
     <MESSAGE value="added automatic rediraction to path /home" />
@@ -193,6 +204,7 @@
     <MESSAGE value="did some styling and changed the button also added twitter sign in option" />
     <MESSAGE value="changed png to webp" />
     <MESSAGE value="turned it back failed deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="turned it back failed deployment" />
+    <MESSAGE value="trying to fix deployment issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to fix deployment issues" />
   </component>
 </project>

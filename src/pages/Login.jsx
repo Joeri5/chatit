@@ -1,9 +1,10 @@
 import firebase from "firebase/compat";
-import { TwitterLoginButton, GoogleLoginButton, GithubLoginButton } from "react-social-login-buttons";
+import { GoogleLoginButton, GithubLoginButton } from "react-social-login-buttons";
 import Envelope from "../images/envelope.webp";
 
 import { auth } from "../firebase";
 import Navbar from "../components/Navbar";
+
 
 const Login = () => {
     return (
@@ -25,11 +26,11 @@ const Login = () => {
                                onClick={() => auth.signInWithRedirect(new firebase.auth.GithubAuthProvider())}
                            />
                        </div>
-                       <div className="login-button">
-                           <TwitterLoginButton
-                               onClick={() => auth.signInWithRedirect(new firebase.auth.TwitterAuthProvider())}
-                           />
-                       </div>
+                       {/*<div className="login-button">*/}
+                       {/*    <TwitterLoginButton*/}
+                       {/*        onClick={() => auth.signInWithRedirect(new firebase.auth.TwitterAuthProvider())}*/}
+                       {/*    />*/}
+                       {/*</div>*/}
                    </div>
                </div>
            </div>
