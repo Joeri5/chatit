@@ -1,6 +1,6 @@
 import firebase from "firebase/compat";
 import { TwitterLoginButton, GoogleLoginButton, GithubLoginButton } from "react-social-login-buttons";
-import Envelope from "../images/envelope.png";
+import Envelope from "../images/envelope.webp";
 
 import { auth } from "../firebase";
 import Navbar from "../components/Navbar";

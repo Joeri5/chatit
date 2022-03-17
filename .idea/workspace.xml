@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="added homepage image and slogan and made the css">
-      <change afterPath="$PROJECT_DIR$/src/images/envelope.png" afterDir="false" />
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="did some styling and changed the button also added twitter sign in option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Spinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Spinner.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Chats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Chats.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/envelope.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/texting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomeScreen.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,8 @@
       <workItem from="1647245336429" duration="6000" />
       <workItem from="1647245354559" duration="14949000" />
       <workItem from="1647277960129" duration="1486000" />
-      <workItem from="1647456905218" duration="4521000" />
+      <workItem from="1647456905218" duration="5161000" />
+      <workItem from="1647507321402" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="worked on design and fixed navbar">
       <created>1647251969429</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647438003652</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="did some styling and changed the button also added twitter sign in option">
+      <created>1647462032669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647462032669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +181,7 @@
     <MESSAGE value="page height" />
     <MESSAGE value="page height in the media query" />
     <MESSAGE value="added homepage image and slogan and made the css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added homepage image and slogan and made the css" />
+    <MESSAGE value="did some styling and changed the button also added twitter sign in option" />
+    <option name="LAST_COMMIT_MESSAGE" value="did some styling and changed the button also added twitter sign in option" />
   </component>
 </project>
