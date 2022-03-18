@@ -1,11 +1,12 @@
 import firebase from "firebase/compat";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth"
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import Envelope from "../images/envelope.webp";
 import 'material-icons/iconfont/material-icons.css';
 import { auth } from "../firebase";
 import Navbar from "../components/Navbar";
 import { useState} from "react";
-import GoogleIcon from '../images/google.svg'
+import GoogleIcon from '../images/google.svg';
+import { Input } from 'semantic-ui-react';
 
 const LoginModal = ({ toggle }) => {
     const [emailInput, setEmailInput] = useState();
@@ -22,10 +23,10 @@ const LoginModal = ({ toggle }) => {
 
     return (
         <form onSubmit={login} autoComplete="off" className="flex flex-col">
-            <label>Email</label>
-            <input type="email" onChange={e => setEmailInput(e.target.value)} placeholder="Enter your email" className="border-2 rounded-lg h-10"/>
-            <label>Password</label>
-            <input type="password" onChange={e => setPasswordInput(e.target.value)} placeholder="Password" className="border-2 rounded-lg h-10"/>
+            <label>Email address</label>
+            <Input size='large' icon='mail' iconPosition='left' type="email" onChange={e => setEmailInput(e.target.value)} placeholder="Enter your email"/>
+            <label className="mt-3">Password</label>
+            <Input size='large' icon='lock' iconPosition='left' type="password" onChange={e => setPasswordInput(e.target.value)} placeholder="Password"/>
             <div className="space-x-2">
                 <button type="submit" className="p-2 bg-blue-400">
                     Login
@@ -53,8 +54,10 @@ const RegisterModal = ({ toggle }) => {
 
     return (
         <form onSubmit={createAccount} autoComplete="off" className="flex flex-col">
-            <input type="email" onChange={e => setEmailInput(e.target.value)} placeholder="Email"/>
-            <input type="password" onChange={e => setPasswordInput(e.target.value)} placeholder="Password"/>
+            <label>Email address</label>
+            <Input size='large' icon='mail' iconPosition='left' type="email" onChange={e => setEmailInput(e.target.value)} placeholder="Enter your email"/>
+            <label className="mt-3">Password</label>
+            <Input size='large' icon='lock' iconPosition='left' type="password" onChange={e => setPasswordInput(e.target.value)} placeholder="Password"/>
             <div className="space-x-2">
                 <button type="submit" className="p-2 bg-blue-400">
                     Signup
@@ -88,9 +91,9 @@ const Login = () => {
                        <div className="login-button">
                            <button
                                onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
-                               className="flex text-center w-full text-xl border-2 justify-center"
+                               className="flex text-center items-center w-full text-xl border-2 justify-center h-10"
                            >
-                               <img src={GoogleIcon} alt="google" className="w-6 mr-2"/> Sign in Google
+                               <img src={GoogleIcon} alt="google" className="w-6 mr-2"/> Sign in with Google
                            </button>
                        </div>
                        <div className="login-button">

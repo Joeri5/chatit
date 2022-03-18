@@ -38,9 +38,9 @@ function Navbar (){
                 Chat<span style={{color: "#1890ff"}}>It</span>
             </Link>
             <div className="flex justify-end w-full">
-                <div onClick={handleLogout} className="logout-tab mr-10">
+                <Link onClick={handleLogout} className="logout-tab mr-10">
                     Logout
-                </div>
+                </Link>
             </div>
         </div>
     );
