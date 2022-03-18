@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import 	{ BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import { AuthProvider } from "./contexts/AuthContext";
 
@@ -9,7 +9,7 @@ import {Redirect} from "react-router";
 
 function App() {
 	return (
-		<div style={{ fontFamily: 'Avenir' }}>
+		<div>
 			<Router>
 				<AuthProvider>
 				<Switch>

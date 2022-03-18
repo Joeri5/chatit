@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="trying to fix deployment issues">
+    <list default="true" id="ab5e16e8-0a70-4700-a2c3-30516b84e916" name="Changes" comment="disabled twitter login option">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Chats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Chats.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.jsx" afterDir="false" />
     </list>
@@ -87,7 +92,8 @@
       <workItem from="1647245354559" duration="14949000" />
       <workItem from="1647277960129" duration="1486000" />
       <workItem from="1647456905218" duration="5161000" />
-      <workItem from="1647507321402" duration="3200000" />
+      <workItem from="1647507321402" duration="9810000" />
+      <workItem from="1647609670456" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="worked on design and fixed navbar">
       <created>1647251969429</created>
@@ -173,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647508935843</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="disabled twitter login option">
+      <created>1647510928787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647510928787</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +218,7 @@
     <MESSAGE value="changed png to webp" />
     <MESSAGE value="turned it back failed deployment" />
     <MESSAGE value="trying to fix deployment issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to fix deployment issues" />
+    <MESSAGE value="disabled twitter login option" />
+    <option name="LAST_COMMIT_MESSAGE" value="disabled twitter login option" />
   </component>
 </project>

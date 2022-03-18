@@ -43,9 +43,13 @@ const Chats = () => {
                 formdata.append('username', user.email);
                 formdata.append('secret', user.uid);
 
-                getFile(user.photoURL)
+                console.log(user)
+
+                getFile(user.photoURL || "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png")
                     .then((avatar) => {
-                        formdata.append('avatar', avatar, avatar.name);
+                        if(avatar != null){
+                            formdata.append('avatar', avatar, avatar.name);
+                        }
 
                         axios.post('https://api.chatengine.io/users',
                             formdata,
